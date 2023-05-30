@@ -1,0 +1,212 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    background-color: #E8E5C2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(71, 110, 48), rgb(95, 190, 95));
+    padding: 10px;
+    margin: 0px;
+    padding-bottom: 1px;
+    min-height: 150px;
+}
+.navegacao {
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.navegacao li a {
+    margin: 31px;
+    color: rgb(221, 226, 230);
+    font-size: 15px;
+}
+
+.navegacao li:hover {
+    background-color: #3e8848;
+    border-radius: 5px;
+    transform: translateY(-2px);
+    transition: 0.3s ease-in-out;
+
+}
+#principal {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(32, 32, 32, 0.432);
+}
+
+#principal2 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(39, 39, 39);
+}
+
+.centro {
+    text-align: center;
+}
+
+.android {
+    font-family: idroid;
+    color: #045227;
+}
+
+h3 {
+    background-color: rgb(155, 197, 155)
+
+}
+
+main {
+    background-color: rgb(223, 212, 212);
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 1px;
+    min-width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ main p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 1%;
+    margin: 15px 0px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+
+mark {
+    background-color: rgb(130, 197, 130);
+}
+
+.video-container {
+    background-color: rgb(71, 110, 48);
+    margin-bottom: 30px;
+    margin: 0 -20px 30 -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+    
+}
+.video-container > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.extra-container {
+    width: 95%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0px;
+    position: relative;
+    background-color: rgb(135, 165, 140);
+    border-radius: 10px;
+}
+.extra {
+    border-radius: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 10px;
+    color: aliceblue;
+    text-shadow:  0px 1px rgba(75, 72, 72, 0.295)
+}
+ul, ol {
+    list-style-type: none;
+
+}
+
+.lista-esquerda, .lista-direita { /*Poderia ter apenas quebrado as listas com um COLUMNS:2. e para estilizar, ter apenas colocado um List-style-type. Exemplo: '\2714(exemplo de emoji)\00A0\00A0 (São espaçamentos)*/
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+.father {
+    text-align: center;
+}
+footer {
+    background-color: #045227;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: -1%;
+}
+
+strong {
+    color: #4cb85c;
+    text-shadow: 1px 1px 1px rgb(102, 97, 97);
+
+}
+
+.father li::before { 
+    content: ' ✔ ';
+}
+
+span::after {
+    content: ' 🔗 ';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

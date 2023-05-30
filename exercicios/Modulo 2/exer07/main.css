@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}   
+
+div:hover {
+    color: brown;
+
+}
+
+div > p {
+    display: none;
+
+}
+
+div:hover > p {
+    display: block;
+    color: aliceblue;
+    background-color: brown;
+    width: 300px;
+
+}

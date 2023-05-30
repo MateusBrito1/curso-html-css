@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+
+    color: aquamarine;
+}
+
+body {
+    background-color: rgb(6, 7, 7);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container {
+    column-count: 3;
+    column-rule: 4px dotted rgb(173, 54, 219);
+    column-width: 250px;
+    column-gap: 20px;
+}
+
+.card {
+    break-inside: avoid;
+    background-color: rgb(139, 75, 168);
+    border: 2px solid rgb(0, 159, 233);
+    padding: 30px;
+    margin: 0 0 1em 0;
+
+}
+

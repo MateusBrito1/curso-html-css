@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+a:visited{        /* Para sites visitdos */
+    color: rgb(255, 0, 170);
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+
+
+a:active {
+    color: yellow;
+}
+
+.especial::before{
+    content: '->';
+}
+.especial::after {
+    content: '<-'
+}
+
+.especial {
+    background-color: brown;
+
+}
+
+/* # = ID 
+    . = class
+    : = pseudo-class
+    :: = pseudo-elemtn
+    > = children
+*/
